@@ -26,7 +26,7 @@ gem 'geocoder'
 gem 'lodash-rails'
 gem 'typhoeus'
 gem 'sassc-rails'
-gem 'puma'
+gem 'puma', '>= 3.12.2'
 gem 'rack-attack'
 
 group :development do
