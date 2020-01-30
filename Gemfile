@@ -22,7 +22,7 @@ gem 'rack-canonical-host'
 gem 'draper', '~> 3.0.0.pre1' # pre version has rails5 support
 gem 'responders'
 gem 'gmaps4rails'
-gem 'geocoder'
+gem 'geocoder', '>= 1.6.1'
 gem 'lodash-rails'
 gem 'typhoeus'
 gem 'sassc-rails'
