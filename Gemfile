@@ -39,10 +39,10 @@ group :development do
 end
 
 group :development, :test, :cucumber do
-  gem 'i18n-tasks'
+  gem 'i18n-tasks', '>= 0.9.12'
   gem 'rspec-rails'
-  gem 'simplecov', require: false
-  gem 'codeclimate-test-reporter', require: false
+  gem 'simplecov', '>= 0.13.0', require: false
+  gem 'codeclimate-test-reporter', '>= 1.0.6', require: false
   gem 'rails-controller-testing'
 
   gem 'rspec-its', require: false
