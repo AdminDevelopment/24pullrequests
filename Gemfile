@@ -17,7 +17,7 @@ gem 'jquery-datetimepicker-rails'
 gem 'simple_form'
 gem 'coffee-rails'
 gem 'uglifier'
-gem 'octicons_helper'
+gem 'octicons_helper', '>= 3.0.1'
 gem 'rack-canonical-host'
 gem 'draper', '~> 3.0.0.pre1' # pre version has rails5 support
 gem 'responders'
@@ -51,7 +51,7 @@ group :development, :test, :cucumber do
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'brakeman'
-  gem 'poltergeist'
+  gem 'poltergeist', '>= 1.13.0'
   gem 'launchy'
 
   gem 'database_cleaner'
