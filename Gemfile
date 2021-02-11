@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.4.0'
 
-gem 'rails', '5.0.2'
+gem 'rails', '6.0.3.5'
 
 gem 'jquery-rails'
 gem 'pg'
@@ -17,7 +17,7 @@ gem 'jquery-datetimepicker-rails'
 gem 'simple_form'
 gem 'coffee-rails'
 gem 'uglifier'
-gem 'octicons_helper'
+gem 'octicons_helper', '>= 3.0.1'
 gem 'rack-canonical-host'
 gem 'draper', '~> 3.0.0.pre1' # pre version has rails5 support
 gem 'responders'
