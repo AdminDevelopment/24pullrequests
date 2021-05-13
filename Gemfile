@@ -23,10 +23,10 @@ gem 'draper', '~> 3.0.0.pre1' # pre version has rails5 support
 gem 'responders'
 gem 'gmaps4rails'
 gem 'geocoder'
-gem 'lodash-rails'
+gem 'lodash-rails', '>= 4.17.21'
 gem 'typhoeus'
 gem 'sassc-rails'
-gem 'puma'
+gem 'puma', '>= 4.3.8'
 gem 'rack-attack'
 
 group :development do
