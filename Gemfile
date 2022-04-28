@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.4.0'
 
-gem 'rails', '5.0.2'
+gem 'rails', '5.2.7.1'
 
 gem 'jquery-rails'
 gem 'pg'
@@ -14,13 +14,13 @@ gem 'kaminari'
 gem 'twitter'
 gem 'bootstrap-sass'
 gem 'jquery-datetimepicker-rails'
-gem 'simple_form'
-gem 'coffee-rails'
+gem 'simple_form', '>= 4.0.0'
+gem 'coffee-rails', '>= 4.2.2'
 gem 'uglifier'
 gem 'octicons_helper'
 gem 'rack-canonical-host'
-gem 'draper', '~> 3.0.0.pre1' # pre version has rails5 support
-gem 'responders'
+gem 'draper', '~> 3.0.0.0' # pre version has rails5 support
+gem 'responders', '>= 2.4.0'
 gem 'gmaps4rails'
 gem 'geocoder'
 gem 'lodash-rails'
@@ -35,7 +35,7 @@ group :development do
   gem 'rubocop', require: false
   gem 'web-console'
   gem 'figaro'
-  gem 'meta_request'
+  gem 'meta_request', '>= 0.5.0'
 end
 
 group :development, :test, :cucumber do
