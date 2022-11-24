@@ -63,7 +63,7 @@ end
 
 group :production do
   gem 'foreman'
-  gem 'dalli'
+  gem 'dalli', '>= 3.2.3'
   gem 'rails_12factor'
   gem 'newrelic_rpm'
   gem 'bugsnag'
